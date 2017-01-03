@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #
 # Copyright 2015 The Android Open Source Project
 #
@@ -14,4 +15,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo aosp_bullhead-userdebug
+add_lunch_combo carbon_bullhead-userdebug
