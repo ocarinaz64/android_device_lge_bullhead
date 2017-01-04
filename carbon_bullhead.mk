@@ -17,6 +17,9 @@
 # Sample: This is where we'd set a backup provider if we had one
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
+#Include Inline Kernel Config
+include device/lge/bullhead/BoardConfigKernel.mk
+
 #Inherit GSM Telephony parts
 $(call inherit-product, vendor/carbon/config/common.mk)
 
