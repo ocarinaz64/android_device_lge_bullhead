@@ -20,6 +20,9 @@
 #Include Inline Kernel Config
 include device/lge/bullhead/BoardConfigKernel.mk
 
+#Include TWRP Config 
+#include device/lge/bullhead/BoardConfigTWRP.mk
+
 #Inherit GSM Telephony parts
 $(call inherit-product, vendor/carbon/config/common.mk)
 
