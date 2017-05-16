@@ -20,6 +20,9 @@
 # Inherit device configuration
 $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 
+# Inherit Carbon GSM telephony parts
+$(call inherit-product, vendor/carbon/config/gsm.mk)
+
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/carbon/config/common.mk)
 
