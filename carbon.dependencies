@@ -3,6 +3,12 @@
     "remote": "gh",
     "repository": "DirtyUnicorns/android_kernel_lge_bullhead",
     "target_path": "kernel/lge/bullhead",
-    "revision": "n7x"
+    "revision": "o8x"
+  }
+  {
+    "remote": "gh",
+    "repository": "DirtyUnicorns/android_vendor_lge",
+    "target_path": "vendor/lge",
+    "revision": "o8x"
   }
 ]
